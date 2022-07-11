@@ -4,5 +4,4 @@ declare const vue3ComponentLibrary: Exclude<Plugin["install"], undefined>;
 
 export default vue3ComponentLibrary;
 
-export const TestWorld: Exclude<Plugin["install"], undefined> | DefineComponent;
 export const HelloWorld: Exclude<Plugin["install"], undefined> | DefineComponent;
